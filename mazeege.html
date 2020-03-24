@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>mazagee</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="">
+        <style>
+         *{
+            /* margin:0px;
+            padding: 0px;  */
+            box-sizing: border-box;
+        }
+        body{
+
+            background: #F4F4F4;
+        }
+        .container {
+            content: "";
+            clear: both;
+            width: 93%;
+            overflow: hidden;
+            margin: 3%;
+        }
+        
+        [class*="col-"] {
+        float: left;
+        padding: 15px;
+        }
+        .col-1 {width: 8.33%;}
+        .col-2 {width: 16.66%;}
+        .col-3 {width: 25%;}
+        .col-4 {width: 30%;}
+        .col-5 {width: 41.66%;}
+        .col-6 {width: 50%;}
+        .col-7 {width: 58.33%;}
+        .col-8 {width: 70%;}
+        .col-9 {width: 75%;}
+        .col-10 {width: 83.33%;}
+        .col-11 {width: 91.66%;}
+        .col-12 {width: 100%;}
+        /* sec1-box1 */
+        .sec1-box1{
+            background: firebrick;
+            padding: 80px 10px 0px 10px;
+            text-align: center;
+            height:300px;
+            line-height: 1.4;
+           
+        }
+        /* sec1-box2 */
+        .sec1-box2{
+            background: white;
+            height:300px;
+            padding: 70px;
+            
+        }
+        .sec1-box1 h1{
+            color: white;
+            font-size: -webkit-xxx-large;
+        }
+        /* ------------CSS Section 2---------- */
+        /* sec2-box1 */
+        .sec2-box1{
+            background: white;
+            height:300px;
+            padding: 30px;
+        }
+        .sec2-box1 h3{
+            color: firebrick;
+            font-size: 25px;
+        }
+        .sec2-box1 button{
+            background:firebrick;
+            color: white;
+            float: right;
+        
+            padding: 15px 30px;
+            border: 0;
+        }
+        /* sec2-box2 */
+        .sec2-box2 {
+            background:firebrick;
+            height:300px;
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+        .sec2-box2 img{
+                border-radius: 50%;
+                margin-top: 10px;
+        }
+        /* --------------CSS Section 3----------- */
+        /* sec3-box1 */
+        .sec3-box1{
+            height: 350px;
+            padding: 0px;
+
+        }
+        .sec3-box1 img{
+            width: 100%;
+            height: 350px;
+        }
+        /* sec3-box2 */
+        .sec3-box2{
+            height: 350px;
+            padding: 65px;
+            background: white;
+            color: black;
+             text-align: center; 
+            font-style: italic;
+        }
+        .sec3-box2 p {
+            text-align: left;
+        }
+
+        .sec3-box2 button{
+            background: brown;
+            color: white;
+            border: 0px;
+            padding: 15px 30px;
+        }
+        /* -------------CSS Section 4 -------------- */
+        .sec4-box1 h2 {
+            color: brown;        
+        }
+        .sec4-box1 button{
+            background: brown;
+            color: white;
+            border: 0px;
+            padding: 15px 15px;
+            float: right;
+        }
+        /* sec4-box1 */
+        .sec4-box1{
+            background: white;
+            height: 470px;
+            padding: 27px;
+        }
+        .sec4-box1 *{
+            padding: 5px;
+        }
+
+         /* sec4-box2  */
+         .sec4-box2{
+             padding: 0px;
+             height: 470px;
+         }
+         .sec4-box2 img{
+            width: 100%;
+            height: 470px;
+         }
+         /* --------------- Section 5 ------------- */
+
+         #modal-body button{
+            background: cadetblue;
+            color: white;
+            border: 0px;
+            padding: 15px 15px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+
+         /* sec5-box1  */
+         .sec5-box1{
+             padding: 0px;
+             height: 400px;
+         }
+         .sec5-box1 img{
+            width: 100%;
+            height: 400px;
+         }
+         /* sec5-box2 */
+        .sec5-box2{
+            background: white;
+            height: 400px;
+            text-decoration: none;
+           
+        }
+        .sec5-box2-modal{
+            border: 2px solid cadetblue;
+            height: 350px;
+            margin: 15px 0 15px 20px;
+            width: 45%;
+            margin: 10px 11px 10px 10px;
+
+        }
+       
+
+        .sec5-box2-modal li ,.sec5-box2-modal li{
+            padding: 30px 60px;
+            text-align: center;
+            text-decoration: none;
+        }
+        #header {
+           background: cadetblue;
+           width: 100%;
+           height: 120px;
+
+        }
+        #header h2, h5 {
+
+           margin: 0px;
+           padding:15px;
+           text-align: center;
+        }
+        #modal-body{
+            text-align: center;
+        }
+        .col-5{
+            padding: 0px;
+
+        }
+        /* ----------------section 6-------------- */
+        /* sec6-box1 */
+        .sec6-box1{
+           background: crimson;
+           color: white;
+           height: 170px;
+           text-align: center;
+           padding: 40px;
+        }
+        .sec6-box2-full{
+                background: rgb(209, 203, 193);
+               
+                height: 230px;
+                
+            }
+            .sec6-box1and2{
+                position: relative;
+                padding: 0px;
+            }
+        .sec6-box2{
+            
+              background: white;
+             
+               padding: 20px;
+              width: 550px;
+              position: absolute;
+              top: 100px;
+              left: 0;
+              right: 0;
+              margin: 0 auto;
+              
+          }
+
+        .sec6-box2 button{
+            background: cadetblue;
+            color: white;
+            border: 0px;
+            padding: 15px 15px;
+            margin: 10px;
+            text-align: center;
+        }
+        
+        .sec6-box2 textarea{
+            height: 210px;
+            border: 1px solid black;
+        }
+        .sec6-box3{
+            background: darkgrey;
+            color: white;
+            height: 250px;
+            text-align: center;
+            padding: 65px;
+        }
+        .sec6-box2 .form-1{
+            width: 50%;
+            float: left;
+        }
+        .sec6-box2 .form-1 input, .se{
+            margin: 10px;
+            border: 1px solid black;
+        }
+        .col4 {
+            width: 50%;
+            float: right;
+             padding: 10px; 
+        }
+        .col3 {
+            width: 50%;
+            float: left;
+            
+        }
+
+        /* Media Queries */
+        @media screen and (max-width: 480px) {
+            .sec2-box2 img {
+                width: 50%;
+            }
+            .sec5-box2-modal,.sec5-box2-modal,.sec5-box2{
+                width: 90%;
+                height: 100%;
+                margin: 0px;
+
+            }   
+            .sec6-box2 .form-1{
+             width: 90%; 
+            
+            }
+            .form-1 input[type=text],input[type=email] ,.se,.ta{
+                width: 100%;
+            }
+          
+            .sec6-box3{
+                height: 100%;
+            }
+            
+            
+            .col3,.col4{
+                float: left;
+                width: 100%;
+                padding: 0px; 
+            }
+
+        }
+        @media screen and (max-width: 768px)   {
+
+            body{
+                width: auto;
+            }
+            .sec1-box1,.sec1-box2,
+            .sec2-box1,.sec2-box2,
+            .sec3-box1,.sec3-box2,
+            .sec4-box1,.sec4-box2,
+            .sec5-box1,.sec5-box2,
+            .sec6-box1{
+                width: 100%;
+                /* height: 100%; */
+
+            }
+            .sec4-box1,.sec5-box2{
+                height: 100%;
+            }
+            .sec5-box2-modal,.sec5-box2-modal{
+                width: 95%;
+                height: 100%;
+                margin: 15px 10px;
+            }
+            .sec6-box2-full{
+               height: 580px; 
+            }
+            .sec6-box2{
+                width: 330px;
+                text-align: center;
+                height: 92%;
+                 padding-top: 6%; 
+            }
+            .sec6-box2 .form-1{
+            width: 90%;
+            float: left;
+            }
+            .sec6-box2 button{
+                width: 70%;
+                margin: 10px;
+            }
+            .form-1 input[type=text],input[type=email] ,.se,.ta{
+                width: 100%;
+            }
+            .sec1-box1{
+                padding:15% ;
+            }
+
+            }
+         @media screen and (max-width: 600px) {
+
+            .sec4-box1,.sec4-box2{
+                width: 100%;
+                word-break: break-word;
+            }
+             .col-8{
+                    width: 100%;
+                }
+                .col-4{
+                    width: 100%;
+                }
+
+            }
+            @media screen and (min-width: 926px){
+                
+                .sec5-box2-modal{
+                   margin-left: 3%;
+                }
+                .sec4-box1 ,.sec4-box2,.sec4-box2 img{
+                    height: 430px;
+                }
+
+                } 
+       
+        </style>
+    </head>
+    <body>
+        <!------------- section 1 --------------->
+        <div class="container">
+
+            <div class="sec1-box1 col-6 ">
+                <h1>Magazee</h1>
+            </div>
+            <div class="sec1-box2 col-6">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum illo quia inventore aut, magni molestias maiores velit repellendus, quam reprehenderit consequatur iusto! Consequuntur repellendus alias sequi magni? Quas, eius voluptas.</p>
+            </div>
+
+        </div>
+        <!-- -----------Section 2------------- -->
+        <div class="container">
+            <div class="sec2-box1 col-6">
+                <h3>Lorem ipsum amet</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa ad sint, tempora beatae recusandae nihil hic ratione laborum reiciendis et sapiente est doloremque.</p>
+                <button>Read More</button>
+            </div>
+            <div class="sec2-box2 col-6">
+                <img src="img/image-04.jpg" alt="" srcset="">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod natus.</p>
+            </div>
+        </div>
+        <!-- ------------Section 3------------ -->
+        <div class="container">
+            <div class="sec3-box1 col-6">
+                <img src="img/image-01.jpg" alt="" srcset="">
+            </div>
+            <div class="sec3-box2 col-6">
+                <h2>Lorem ipsum amet </h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem ipsum amet consectetur adipisicing elit. Veniam suscipit nemo architecto eos laboriosam.</p>
+                <button>Read More</button>
+            </div>
+        </div>
+        <!-- ------------Section 4----------- -->
+        <div class="container">
+            <div class="sec4-box1 col-8">
+                <h2>Lorem ipsum amet </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ofngyj ptik exercitationem sit fugiat quae officia nobis voluptatem voluptatibus placeat error ea quidem, mollitia laudantium tempore eos consequatur Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit .</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur quod dolorem ddfcc. Asperiores, neque odio accusantium harum ratione quod maiores dolore pariatur distinctio. Odit ducimus cum et.</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus eum illo, voluptfgt. Lorem ipsum dolue optio. Lorem ipsum dolor sit amet consectetur, adipis</p>
+                <button>Read More</button>
+            </div>
+            <div class="sec4-box2 col-4">
+                <img src="img/image-02.jpg" alt="" srcset="">
+
+            </div>
+        </div>
+        <!-- -------------Section 5----------- -->
+        <div class="container">
+
+            <div class="sec5-box1 col-4">
+                <img src="img/image-03.jpg" alt="" srcset="">
+
+            </div>
+            <div class="sec5-box2 col-8">
+                <div class="sec5-box2-modal col-5">
+
+                        <div id="header">
+                            <h2>Basic</h2>
+                            <h5 >$ 9.99 / year</h5>
+                        </div>
+                        <div id="modal-body">
+                            <p>10GB Storage</p>
+                            <p>10 Emails</p>
+                            <p>10 Domains</p>
+                            <p>1GB Bandwidth</p>
+                            <button href="#" type="button" class="button">Sign Up</button>
+                        </div>
+                </div>
+                <div class="sec5-box2-modal col-5">
+                    <div id="header">
+                        <h2>Basic</h2>
+                        <h5 >$ 9.99 / year</h5>
+                    </div>
+                    <div id="modal-body">
+                        <p>10GB Storage</p>
+                        <p>10 Emails</p>
+                        <p>10 Domains</p>
+                        <p>1GB Bandwidth</p>
+                        <button href="#" type="button" class="button">Sign Up</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- -------------Section 6----------- -->
+        <div class="container">
+            <div class="sec6-box1and2 col-12">
+                <div class="sec6-box1" >
+                    <h3>Application From</h3>
+                </div>
+                
+                <div class="sec6-box2-full" >
+                    
+                </div>
+                <div class="sec6-box2">
+                    <form action="submit">
+                        <div class="form-1 ">
+                                <input  class="col-10" placeholder="Full Name" type="text" />
+   
+                                <input class="col-10"  placeholder="Email" type="text"  />
+                                <select class="col-10 se"  id="browsers">
+                                    <option value="Firefox">
+                                    <option value="Firefox">
+                               </select>
+   
+                                <select class="col-10 se" id="browsers">
+                                        <option value="Firefox">
+                                        <option value="Firefox">
+                                </select>
+                        </div>
+                        <div class="form-1 ">
+                            <input type="radio" style="margin-left:10px;" value="Male"/> Male
+                            <input type="radio" style="margin-left:px;" value="Female"/> Famale
+                            <textarea style="margin: 10px;"  class="col-10 ta" placeholder="Message"></textarea>
+                        </div>
+                        <button style="background: firebrick;" href="#" type="submit" class="button">Submit</button>
+                   </form>
+                </div>
+            </div>
+            
+            <div class="sec6-box3 col-12" >
+                 <div class="col3">
+                     <h4 class="a">Lorem ipsum dolor</h4>
+                     <p class="a">ipsum dolor sit amet</p>
+                     <p class="a">ipsum dolor sit amet</p>
+                     <p class="a">ipsum dolor sit amet</p>
+                  </div>
+                 <div class="col4">
+                     <p class="b">ipsum dolor sit amet</p>
+                     <p class="b">ipsum dolor sit amet</p>
+                     <p class="b">ipsum dolor sit amet</p>
+                     <p class="b">ipsum dolor sit amet</p>
+                  </div>
+            </div>
+            
+        </div>
+        <footer style="text-align: center;">
+            <p>Copyright &copy; 2020 Mindlabs | Designed By MAS</p>
+        </footer>
+        <script src="" async defer></script>
+    </body>
+</html>
